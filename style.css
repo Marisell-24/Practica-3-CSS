@@ -1,0 +1,55 @@
+/*ejercicio de caja*/
+.caja {
+/*propiedades especiales*/
+font-size: 20px;
+color: red;
+
+outline: 1px solid red;
+width: 100px;
+height: 100px;
+border: 5px solid orange;
+padding: 50px;
+margin: 50px;
+}
+/*ejercicio de selectores*/
+header > nav > a{
+font-size: 80px;
+}
+aside a{
+color: green;
+}
+/*compartir propiedades css */
+h2, .texto-centrado {
+text-align : center;
+}
+h1{
+color: red;        
+}
+.texto-grande {
+font-size: 40px;        
+color: blue;
+}
+#texto-pequeño {
+font-size: 10px;
+color: yellow;
+}
+/*estilizar textos*/
+.aliniacion {
+    /*aliniar a la izquierda*/
+    /*text-align: left;*/
+    /*aliniar al centro*/
+    /*text-align: center;*/
+    /*aliniar a la derecha*/
+    /*text-align: right;*/
+    /*justificar texto*/
+    text-align: justify;
+}
+.tamaños{
+    font-size: 40px;
+}
+.decoraciones{
+    text-decoration: wavy;
+}
+.transformaciones{
+    text-transform: capitalize;
+}
