@@ -53,3 +53,46 @@ color: yellow;
 .transformaciones{
     text-transform: capitalize;
 }
+.espaciado-de-texto{
+
+    /*inter lineado
+    line-height: 40px;*/
+    /* espaciado entre letras*/
+    letter-spacing: 2px;
+    /*distancia entre palabras*/
+    word-spacing: 20px;
+}
+.caja-padre{
+    border-color: red;
+    border: 2px red solid;
+}
+.posicion-caja-1,.posicion-caja-2,.posicion-caja-3{
+    height: 100px;
+    width: 100px;
+    border: 3px solid blue;
+    margin: 20px;
+}
+.posicion-caja-1{
+    /* se desplaza teniendo encuenta su posicion de origen */
+    position: relative;
+    left: 40px;
+   /* top: 40px;*/
+    bottom: 50px;
+}
+.posicion-caja-2{
+    position: absolute;
+    left: 50px;
+    border-color: blueviolet;
+    top: 0;
+
+}
+.posicion-caja-3{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
