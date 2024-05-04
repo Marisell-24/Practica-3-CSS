@@ -130,3 +130,27 @@ body{
     justify-content: space-around;
 
 }
+
+
+.boton-animado{/*
+
+transform: scale(2);
+transform: rotate(45deg);
+transform: translate(50px, 100px);*/
+transition: transform 1s, color 3s;
+}
+
+.boton-animado:hover{
+    color: blue;
+    transform: scale(1.2);
+
+}
+.responsive{
+    font-size: 150px;
+}
+@media screen and (width <690px ) {
+    
+  .responsive{
+    font-size: 100px;
+  }  
+}
